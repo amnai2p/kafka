@@ -1,12 +1,12 @@
 # kafka
 Get Topics list and Single Topic configuration using Shell and Curl
 
-#Installation
-Confluent
-Required Ports: 
-  9092 - broker
-  2181 - zookeeper
-Installation:
+# Confluent
+Required Ports:<br />
+    9092 - broker<br />
+    2181 - zookeeper<br />
+	
+# Installation:
     1. Install the Confluent public key. This key is used to sign the packages in the APT repository.
         wget -qO - https://packages.confluent.io/deb/5.0/archive.key | sudo apt-key add -
         The Output should be: OK
